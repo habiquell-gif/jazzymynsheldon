@@ -1,161 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jazzymyn Sheldon — Digital Growth Partner</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-    header {
-      background: linear-gradient(135deg,#020617,#0f172a);
-      padding: 80px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #94a3b8;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 28px;
-      background: #38bdf8;
-      color: #020617;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    section {
-      padding: 80px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 2.2rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-      gap: 25px;
-    }
-    .card {
-      background: #020617;
-      padding: 25px;
-      border-radius: 18px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.4);
-    }
-    .card img {
-      width: 100%;
-      border-radius: 12px;
-      margin-bottom: 15px;
-    }
-    .card h3 {
-      margin: 10px 0;
-    }
-    .proof {
-      background: #020617;
-      text-align: center;
-      border-radius: 20px;
-    }
-    footer {
-      background: #020617;
-      text-align: center;
-      padding: 30px;
-      color: #64748b;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Jazzymyn Sheldon | Ads & Digital Growth Specialist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--bg:#0b1020;
+--card:#121833;
+--text:#e5e7eb;
+--muted:#9ca3af;
+--accent:#38bdf8;
+}
+.light{
+--bg:#f8fafc;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#475569;
+--accent:#0284c7;
+}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Inter,sans-serif;
+background:var(--bg);
+color:var(--text);
+transition:.3s;
+}
+a{text-decoration:none;color:inherit}
+header{
+padding:90px 20px;
+text-align:center;
+background:linear-gradient(135deg,#020617,#0b1020);
+}
+header h1{font-size:3rem;margin-bottom:10px}
+header p{color:var(--muted);font-size:1.2rem}
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+border-radius:40px;
+background:var(--accent);
+color:#020617;
+font-weight:600;
+}
+.toggle{
+position:fixed;
+top:20px;
+right:20px;
+background:var(--card);
+padding:10px 14px;
+border-radius:50px;
+cursor:pointer;
+z-index:1000;
+}
+section{
+max-width:1200px;
+margin:auto;
+padding:80px 20px;
+}
+h2{text-align:center;font-size:2.3rem;margin-bottom:40px}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+.card{
+background:var(--card);
+padding:25px;
+border-radius:22px;
+box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+.card img{
+width:100%;
+border-radius:14px;
+margin-bottom:15px;
+}
+.case{
+border-left:4px solid var(--accent);
+padding-left:20px;
+}
+.contact{text-align:center}
+input,textarea{
+width:100%;
+padding:14px;
+border-radius:12px;
+border:none;
+margin-bottom:15px;
+background:#020617;
+color:#fff;
+}
+.light input,.light textarea{
+background:#f1f5f9;
+color:#0f172a;
+}
+footer{
+text-align:center;
+padding:40px 20px;
+color:var(--muted);
+}
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:14px 22px;
+border-radius:40px;
+font-weight:600;
+z-index:1000;
+}
+</style>
 </head>
+
 <body>
 
+<div class="toggle" onclick="document.body.classList.toggle('light')">🌙 / ☀️</div>
+
+<a class="whatsapp" 
+href="https://wa.me/2348103454268?text=Hello%20Jazzymyn%20I%20want%20to%20work%20with%20you" 
+target="_blank">
+WhatsApp Me
+</a>
+
 <header>
-  <h1>Jazzymyn Sheldon</h1>
-  <p>Helping brands grow with strategy, design & performance marketing</p>
-  <a href="#contact" class="btn">Work With Me</a>
+<h1>Jazzymyn Sheldon</h1>
+<p>Google Ads • TikTok Ads • Websites • Brand Growth</p>
+<a href="#contact" class="btn">Hire Me</a>
 </header>
 
 <section>
-  <h2>What I Do</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Brand Strategy</h3>
-      <p>Clear positioning that turns visitors into paying clients.</p>
-    </div>
-    <div class="card">
-      <h3>Website Design</h3>
-      <p>Clean, modern websites that build trust instantly.</p>
-    </div>
-    <div class="card">
-      <h3>Growth Marketing</h3>
-      <p>Content & funnel strategies designed for conversions.</p>
-    </div>
-  </div>
+<h2>What I Do</h2>
+<div class="grid">
+<div class="card">
+<h3>Google Ads & GMC</h3>
+<p>High-intent ads that bring ready-to-buy customers.</p>
+</div>
+<div class="card">
+<h3>TikTok Shop & Ads</h3>
+<p>Scroll-stopping creatives optimized for sales.</p>
+</div>
+<div class="card">
+<h3>Website Design</h3>
+<p>Clean, trusted websites that convert visitors.</p>
+</div>
+</div>
 </section>
 
 <section>
-  <h2>Portfolio</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
-      <h3>Marketing Landing Page</h3>
-      <p>High-conversion landing page for a digital brand.</p>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="">
-      <h3>Business Website</h3>
-      <p>Corporate-style website with trust-focused layout.</p>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="">
-      <h3>Personal Brand</h3>
-      <p>Portfolio website for a creator & consultant.</p>
-    </div>
-  </div>
-</section>
-
-<section class="proof">
-  <h2>Why Clients Trust Me</h2>
-  <p>✔ Clean professional design<br>
-     ✔ Clear communication<br>
-     ✔ Results-focused execution<br>
-     ✔ Trusted by international clients</p>
+<h2>Portfolio</h2>
+<div class="grid">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+<h3>Marketing Funnel</h3>
+<p>High-conversion landing page for online offers.</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+<h3>Business Website</h3>
+<p>Professional service website with authority layout.</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe">
+<h3>Ad Campaign Setup</h3>
+<p>Optimized ad structure for ROAS.</p>
+</div>
+</div>
 </section>
 
 <section>
-  <h2>Testimonials</h2>
-  <div class="grid">
-    <div class="card">
-      <p>“Professional, fast, and exceeded expectations.”</p>
-      <strong>— Client, USA</strong>
-    </div>
-    <div class="card">
-      <p>“My brand finally looks credible and polished.”</p>
-      <strong>— Startup Founder</strong>
-    </div>
-  </div>
+<h2>Case Studies</h2>
+<div class="grid">
+<div class="card case">
+<h3>📈 Local Service Brand</h3>
+<p>Website + ads redesign increased inquiries and trust.</p>
+</div>
+<div class="card case">
+<h3>🚀 Online Product</h3>
+<p>TikTok + Google Ads setup for scalable traffic.</p>
+</div>
+</div>
 </section>
 
-<section id="contact">
-  <h2>Let’s Work Together</h2>
-  <p style="text-align:center">Ready to build a trusted online presence?</p>
-  <div style="text-align:center">
-    <a href="mailto:jazzymynshedon@email.com" class="btn">Contact Me</a>
-  </div>
+<section>
+<h2>Client Feedback</h2>
+<div class="grid">
+<div class="card">
+<p>“Professional, clear, and results-focused.”</p>
+<strong>— Client (USA)</strong>
+</div>
+<div class="card">
+<p>“My business finally looks legit online.”</p>
+<strong>— Business Owner</strong>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Me</h2>
+<form action="mailto:jazzymynsheldon@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+<button class="btn" type="submit">Send Message</button>
+</form>
+
+<p style="margin-top:30px">
+📧 jazzymynsheldon@gmail.com<br>
+📘 <a href="https://www.facebook.com/profile.php?id=61585683937944" target="_blank">Facebook: Jazzymyn Sheldon</a>
+</p>
 </section>
 
 <footer>
-  © 2026 Jazzymyn Sheldon. All rights reserved.
+© 2026 Jazzymyn Sheldon — Digital Growth Partner
 </footer>
 
 </body>
