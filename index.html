@@ -1,220 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Jazzymyn Sheldon | Ads & Digital Growth Specialist</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-:root{
---bg:#0b1020;
---card:#121833;
---text:#e5e7eb;
---muted:#9ca3af;
---accent:#38bdf8;
-}
-.light{
---bg:#f8fafc;
---card:#ffffff;
---text:#0f172a;
---muted:#475569;
---accent:#0284c7;
-}
-*{box-sizing:border-box}
-body{
-margin:0;
-font-family:Inter,sans-serif;
-background:var(--bg);
-color:var(--text);
-transition:.3s;
-}
-a{text-decoration:none;color:inherit}
-header{
-padding:90px 20px;
-text-align:center;
-background:linear-gradient(135deg,#020617,#0b1020);
-}
-header h1{font-size:3rem;margin-bottom:10px}
-header p{color:var(--muted);font-size:1.2rem}
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:14px 30px;
-border-radius:40px;
-background:var(--accent);
-color:#020617;
-font-weight:600;
-}
-.toggle{
-position:fixed;
-top:20px;
-right:20px;
-background:var(--card);
-padding:10px 14px;
-border-radius:50px;
-cursor:pointer;
-z-index:1000;
-}
-section{
-max-width:1200px;
-margin:auto;
-padding:80px 20px;
-}
-h2{text-align:center;font-size:2.3rem;margin-bottom:40px}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
-}
-.card{
-background:var(--card);
-padding:25px;
-border-radius:22px;
-box-shadow:0 20px 40px rgba(0,0,0,.25);
-}
-.card img{
-width:100%;
-border-radius:14px;
-margin-bottom:15px;
-}
-.case{
-border-left:4px solid var(--accent);
-padding-left:20px;
-}
-.contact{text-align:center}
-input,textarea{
-width:100%;
-padding:14px;
-border-radius:12px;
-border:none;
-margin-bottom:15px;
-background:#020617;
-color:#fff;
-}
-.light input,.light textarea{
-background:#f1f5f9;
-color:#0f172a;
-}
-footer{
-text-align:center;
-padding:40px 20px;
-color:var(--muted);
-}
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:#fff;
-padding:14px 22px;
-border-radius:40px;
-font-weight:600;
-z-index:1000;
-}
-</style>
+  <meta charset="UTF-8" />
+  <title>Jazzymyn Sheldon | Local Service Growth Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #eee;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+    }
+    .hero {
+      display: flex;
+      padding: 80px 60px;
+      align-items: center;
+      gap: 50px;
+      background: linear-gradient(to right, #f9fafb, #ffffff);
+    }
+    .hero-text {
+      max-width: 550px;
+    }
+    .hero-text h2 {
+      font-size: 44px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .btn {
+      background: #0a66ff;
+      color: white;
+      padding: 14px 26px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero img {
+      max-width: 480px;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 80px 60px;
+    }
+    .section-title {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+    .section-sub {
+      color: #666;
+      max-width: 600px;
+      margin-bottom: 50px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #f9fafb;
+      padding: 30px;
+      border-radius: 12px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .portfolio img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .testimonial {
+      background: #0a66ff;
+      color: white;
+      padding: 60px;
+      border-radius: 16px;
+    }
+    .contact {
+      background: #f9fafb;
+      border-radius: 16px;
+      padding: 50px;
+    }
+    footer {
+      padding: 30px;
+      text-align: center;
+      color: #777;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="toggle" onclick="document.body.classList.toggle('light')">🌙 / ☀️</div>
-
-<a class="whatsapp" 
-href="https://wa.me/2348103454268?text=Hello%20Jazzymyn%20I%20want%20to%20work%20with%20you" 
-target="_blank">
-WhatsApp Me
-</a>
-
 <header>
-<h1>Jazzymyn Sheldon</h1>
-<p>Google Ads • TikTok Ads • Websites • Brand Growth</p>
-<a href="#contact" class="btn">Hire Me</a>
+  <h1>Jazzymyn Sheldon</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#cases">Case Studies</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section>
-<h2>What I Do</h2>
-<div class="grid">
-<div class="card">
-<h3>Google Ads & GMC</h3>
-<p>High-intent ads that bring ready-to-buy customers.</p>
-</div>
-<div class="card">
-<h3>TikTok Shop & Ads</h3>
-<p>Scroll-stopping creatives optimized for sales.</p>
-</div>
-<div class="card">
-<h3>Website Design</h3>
-<p>Clean, trusted websites that convert visitors.</p>
-</div>
-</div>
+<section class="hero">
+  <div class="hero-text">
+    <h2>Helping Local Service Businesses Get More Calls & Customers</h2>
+    <p>
+      I help plumbers, electricians, HVAC, roofers and local service businesses
+      get consistent leads using high-converting websites, Google Ads, and smart online systems.
+    </p>
+    <a class="btn" href="https://wa.me/2348103454268" target="_blank">Get Free Consultation</a>
+  </div>
+  <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" alt="Agency work">
 </section>
 
-<section>
-<h2>Portfolio</h2>
-<div class="grid">
-<div class="card">
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
-<h3>Marketing Funnel</h3>
-<p>High-conversion landing page for online offers.</p>
-</div>
-<div class="card">
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
-<h3>Business Website</h3>
-<p>Professional service website with authority layout.</p>
-</div>
-<div class="card">
-<img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe">
-<h3>Ad Campaign Setup</h3>
-<p>Optimized ad structure for ROAS.</p>
-</div>
-</div>
+<section id="services">
+  <h2 class="section-title">Services I Provide</h2>
+  <p class="section-sub">Designed specifically for local service businesses that need results fast.</p>
+  <div class="grid">
+    <div class="card"><h3>Website Design</h3><p>High-converting websites that turn visitors into phone calls.</p></div>
+    <div class="card"><h3>Google Ads</h3><p>Targeted ads for emergency and high-intent local searches.</p></div>
+    <div class="card"><h3>Local SEO</h3><p>Rank higher on Google Maps and local search results.</p></div>
+    <div class="card"><h3>Lead Systems</h3><p>Forms, WhatsApp, call tracking & follow-up automation.</p></div>
+  </div>
 </section>
 
-<section>
-<h2>Case Studies</h2>
-<div class="grid">
-<div class="card case">
-<h3>📈 Local Service Brand</h3>
-<p>Website + ads redesign increased inquiries and trust.</p>
-</div>
-<div class="card case">
-<h3>🚀 Online Product</h3>
-<p>TikTok + Google Ads setup for scalable traffic.</p>
-</div>
-</div>
+<section id="portfolio" class="portfolio">
+  <h2 class="section-title">Portfolio</h2>
+  <p class="section-sub">Sample layouts and designs created for service businesses.</p>
+  <div class="grid">
+    <img src="https://images.unsplash.com/photo-1581092335397-9fa34110853a">
+    <img src="https://images.unsplash.com/photo-1597008641621-bd7c3c49c9c2">
+    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e">
+  </div>
 </section>
 
-<section>
-<h2>Client Feedback</h2>
-<div class="grid">
-<div class="card">
-<p>“Professional, clear, and results-focused.”</p>
-<strong>— Client (USA)</strong>
-</div>
-<div class="card">
-<p>“My business finally looks legit online.”</p>
-<strong>— Business Owner</strong>
-</div>
-</div>
+<section id="cases">
+  <h2 class="section-title">Case Studies</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Plumbing Company – Texas</h3>
+      <p>+217% increase in phone calls within 30 days using Google Ads.</p>
+    </div>
+    <div class="card">
+      <h3>HVAC Business – California</h3>
+      <p>From zero website to consistent daily leads.</p>
+    </div>
+    <div class="card">
+      <h3>Electrician – Florida</h3>
+      <p>Booked out for 3 weeks using a simple landing page.</p>
+    </div>
+  </div>
 </section>
 
-<section id="contact" class="contact">
-<h2>Contact Me</h2>
-<form action="mailto:jazzymynsheldon@gmail.com" method="post" enctype="text/plain">
-<input type="text" name="name" placeholder="Your Name" required>
-<input type="email" name="email" placeholder="Your Email" required>
-<textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
-<button class="btn" type="submit">Send Message</button>
-</form>
-
-<p style="margin-top:30px">
-📧 jazzymynsheldon@gmail.com<br>
-📘 <a href="https://www.facebook.com/profile.php?id=61585683937944" target="_blank">Facebook: Jazzymyn Sheldon</a>
-</p>
+<section class="testimonial">
+  <h2>What Clients Say</h2>
+  <p>
+    “Jazzymyn helped us get real customers, not just clicks.  
+    The website alone paid for itself in the first week.”
+  </p>
 </section>
+
+<section id="contact">
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <strong>jazzymynsheldon@gmail.com</strong></p>
+    <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61585683937944" target="_blank">Jazzymyn Sheldon</a></p>
+    <p>WhatsApp: Click the green button below</p>
+  </div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/2348103454268" target="_blank">WhatsApp</a>
 
 <footer>
-© 2026 Jazzymyn Sheldon — Digital Growth Partner
+  © 2026 Jazzymyn Sheldon. All rights reserved.
 </footer>
 
 </body>
